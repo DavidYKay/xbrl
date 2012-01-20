@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DSViewController : UITableViewController
+@interface DSViewController : UITableViewController {
+  NSArray *_companies;
+}
+
+@property (retain) NSArray *companies;
 
 @end

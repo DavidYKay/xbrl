@@ -20,6 +20,9 @@
 		42B0F66414C90C1900DF26C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B0F64514C90C1900DF26C3 /* Foundation.framework */; };
 		42B0F66C14C90C1900DF26C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42B0F66A14C90C1900DF26C3 /* InfoPlist.strings */; };
 		42B0F66F14C90C1900DF26C3 /* XBRLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0F66E14C90C1900DF26C3 /* XBRLTests.m */; };
+		42B0F68514C913C300DF26C3 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0F68414C913C300DF26C3 /* Company.m */; };
+		42B0F69414C9148D00DF26C3 /* StatementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0F69214C9148D00DF26C3 /* StatementViewController.m */; };
+		42B0F69514C9148D00DF26C3 /* StatementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B0F69314C9148D00DF26C3 /* StatementViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +40,26 @@
 		42B0F64314C90C1900DF26C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42B0F64514C90C1900DF26C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42B0F64714C90C1900DF26C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		42B0F64B14C90C1900DF26C3 /* XBRL-Info.plist */ = {isa = PBXFileReference; path = "XBRL-Info.plist"; sourceTree = "<group>"; };
+		42B0F64B14C90C1900DF26C3 /* XBRL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XBRL-Info.plist"; sourceTree = "<group>"; };
 		42B0F64D14C90C1900DF26C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42B0F64F14C90C1900DF26C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42B0F65114C90C1900DF26C3 /* XBRL-Prefix.pch */ = {isa = PBXFileReference; path = "XBRL-Prefix.pch"; sourceTree = "<group>"; };
-		42B0F65214C90C1900DF26C3 /* DSAppDelegate.h */ = {isa = PBXFileReference; path = DSAppDelegate.h; sourceTree = "<group>"; };
+		42B0F65114C90C1900DF26C3 /* XBRL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XBRL-Prefix.pch"; sourceTree = "<group>"; };
+		42B0F65214C90C1900DF26C3 /* DSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAppDelegate.h; sourceTree = "<group>"; };
 		42B0F65314C90C1900DF26C3 /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAppDelegate.m; sourceTree = "<group>"; };
-		42B0F65514C90C1900DF26C3 /* DSViewController.h */ = {isa = PBXFileReference; path = DSViewController.h; sourceTree = "<group>"; };
+		42B0F65514C90C1900DF26C3 /* DSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSViewController.h; sourceTree = "<group>"; };
 		42B0F65614C90C1900DF26C3 /* DSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
 		42B0F65914C90C1900DF26C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DSViewController.xib; sourceTree = "<group>"; };
 		42B0F66014C90C1900DF26C3 /* XBRLTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBRLTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B0F66114C90C1900DF26C3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		42B0F66914C90C1900DF26C3 /* XBRLTests-Info.plist */ = {isa = PBXFileReference; path = "XBRLTests-Info.plist"; sourceTree = "<group>"; };
+		42B0F66914C90C1900DF26C3 /* XBRLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XBRLTests-Info.plist"; sourceTree = "<group>"; };
 		42B0F66B14C90C1900DF26C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		42B0F66D14C90C1900DF26C3 /* XBRLTests.h */ = {isa = PBXFileReference; path = XBRLTests.h; sourceTree = "<group>"; };
+		42B0F66D14C90C1900DF26C3 /* XBRLTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBRLTests.h; sourceTree = "<group>"; };
 		42B0F66E14C90C1900DF26C3 /* XBRLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBRLTests.m; sourceTree = "<group>"; };
+		42B0F68314C913C300DF26C3 /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		42B0F68414C913C300DF26C3 /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		42B0F69114C9148D00DF26C3 /* StatementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatementViewController.h; sourceTree = "<group>"; };
+		42B0F69214C9148D00DF26C3 /* StatementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatementViewController.m; sourceTree = "<group>"; };
+		42B0F69314C9148D00DF26C3 /* StatementViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatementViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,12 +119,17 @@
 		42B0F64914C90C1900DF26C3 /* XBRL */ = {
 			isa = PBXGroup;
 			children = (
+				42B0F68314C913C300DF26C3 /* Company.h */,
+				42B0F68414C913C300DF26C3 /* Company.m */,
 				42B0F65214C90C1900DF26C3 /* DSAppDelegate.h */,
 				42B0F65314C90C1900DF26C3 /* DSAppDelegate.m */,
 				42B0F65514C90C1900DF26C3 /* DSViewController.h */,
 				42B0F65614C90C1900DF26C3 /* DSViewController.m */,
 				42B0F65814C90C1900DF26C3 /* DSViewController.xib */,
 				42B0F64A14C90C1900DF26C3 /* Supporting Files */,
+				42B0F69114C9148D00DF26C3 /* StatementViewController.h */,
+				42B0F69214C9148D00DF26C3 /* StatementViewController.m */,
+				42B0F69314C9148D00DF26C3 /* StatementViewController.xib */,
 			);
 			path = XBRL;
 			sourceTree = "<group>";
@@ -224,6 +237,7 @@
 			files = (
 				42B0F64E14C90C1900DF26C3 /* InfoPlist.strings in Resources */,
 				42B0F65A14C90C1900DF26C3 /* DSViewController.xib in Resources */,
+				42B0F69514C9148D00DF26C3 /* StatementViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +275,8 @@
 				42B0F65014C90C1900DF26C3 /* main.m in Sources */,
 				42B0F65414C90C1900DF26C3 /* DSAppDelegate.m in Sources */,
 				42B0F65714C90C1900DF26C3 /* DSViewController.m in Sources */,
+				42B0F68514C913C300DF26C3 /* Company.m in Sources */,
+				42B0F69414C9148D00DF26C3 /* StatementViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +444,7 @@
 				42B0F67414C90C1900DF26C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42B0F67514C90C1900DF26C3 /* Build configuration list for PBXNativeTarget "XBRLTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +453,7 @@
 				42B0F67714C90C1900DF26C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
