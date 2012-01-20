@@ -1,3 +1,6 @@
 [submodule "Vendor/TouchRSS"]
 	path = Vendor/TouchRSS
 	url = https://github.com/TouchCode/TouchRSS.git
+[submodule "Vendor/TouchXML"]
+	path = Vendor/TouchXML
+	url = https://github.com/TouchCode/TouchXML.git
