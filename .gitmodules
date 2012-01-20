@@ -4,3 +4,6 @@
 [submodule "Vendor/TouchXML"]
 	path = Vendor/TouchXML
 	url = https://github.com/TouchCode/TouchXML.git
+[submodule "Vendor/TouchFoundation"]
+	path = Vendor/TouchFoundation
+	url = https://github.com/TouchCode/TouchFoundation.git
